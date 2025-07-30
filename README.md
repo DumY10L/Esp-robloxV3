@@ -66,7 +66,7 @@ espLabel.Name = "EspLabel"
 espLabel.Size = UDim2.new(0, 60, 0, 25)
 espLabel.Position = UDim2.new(0, 0, 0, 10)
 espLabel.BackgroundTransparency = 1
-espLabel.Text = "Esp :"
+espLabel.Text = " Esp :"
 espLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 espLabel.TextScaled = true
 espLabel.Font = Enum.Font.Gotham
@@ -90,7 +90,7 @@ local function createHighlight(character)
     local highlight = Instance.new("Highlight")
     highlight.Name = "ESPHighlight"
     highlight.FillColor = Color3.fromRGB(100, 255, 100) 
-    highlight.FillTransparency = 0.5
+    highlight.FillTransparency = 0.6
     highlight.OutlineColor = Color3.fromRGB(100, 255, 100) 
     highlight.OutlineTransparency = 0
     highlight.Parent = character
